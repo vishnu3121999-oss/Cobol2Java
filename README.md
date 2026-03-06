@@ -34,7 +34,17 @@ Or pass COBOL inline:
 python main.py --cobol "IDENTIFICATION DIVISION. PROGRAM-ID. HELLO."
 ```
 
-## 4. Optional model override
+## 4. Convert COBOL project to Spring Boot (MongoDB)
+
+Use the included sample multi-file COBOL CRUD project:
+
+```powershell
+python main.py --target springboot --input-dir .\sample_cobol_crud_mongo --output-dir .\springboot-out --skip-review
+```
+
+The generated Spring Boot project files are written under `springboot-out`.
+
+## 5. Optional model override
 
 ```powershell
 python main.py --input-file .\sample.cbl --model gemini-2.5-flash-lite --temperature 0.1
