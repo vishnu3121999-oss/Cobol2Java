@@ -2,3 +2,5 @@ langgraph>=0.2.0
 langchain-core>=0.3.0
 langchain-google-genai>=2.0.0
 python-dotenv>=1.0.1
+
+# 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
